@@ -54,7 +54,7 @@ const Header = (props: Props) => {
                     scale: 1,
                 }}
                 transition={{
-                    duration: 1.5,
+                    duration: 1.5 ,
                 }}
                 className="flex flex-row items-center">
                 <SocialIcon
