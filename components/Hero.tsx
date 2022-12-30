@@ -26,15 +26,15 @@ const Hero = (props: Props) => {
                     <span className='mr-3'>
                         {text}
                     </span>
-                    <Cursor cursorColor='#F7AB0A' />
+                    <Cursor cursorColor='#7E6BDB' />
                 </h1>
-                <div className="pt-5 flex">
+                <div className="pt-8 flex justify-center">
                     <Link href='#about'>
                         <div className="heroButton">About</div>
                     </Link>
-                    <Link href='#experience'>
+                    {/* <Link href='#experience'>
                         <div className="heroButton">Experience</div>
-                    </Link>
+                    </Link> */}
                     <Link href='#skills'>
                         <div className="heroButton">Skills</div>
                     </Link>
